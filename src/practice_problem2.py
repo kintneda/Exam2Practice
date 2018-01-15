@@ -56,15 +56,15 @@ def run_test_practice_problem2a():
     print('Testing the   practice_problem2a   function:')
     print('--------------------------------------------------')
 
-    #Test 1
-    seq = [2,4,5,6]
+    # Test 1
+    seq = [2, 4, 5, 6]
     delta = 3
 
-    expected = [5,7,8,9]
-    actual = practice_problem2a(seq,delta)
+    expected = [5, 7, 8, 9]
+    actual = practice_problem2a(seq, delta)
 
     print('Test 1 expected ', expected)
-    print("actual ",actual)
+    print("actual ", actual)
 
     # Test 2
     seq = [4, 1, 3, 2]
@@ -215,7 +215,7 @@ def practice_problem2b(sequence):
       :type sequence [str]
     """
     string = ''
-    for k in range (len(sequence)):
+    for k in range(len(sequence)):
         if sequence[k] == '':
             string = string + ""
         else:
@@ -223,7 +223,7 @@ def practice_problem2b(sequence):
     return string
 
     ####################################################################
-    # TODO: 4. Implement and test this function.
+    # Done: 4. Implement and test this function.
     #     The testing code is already written for you (above).
     ####################################################################
     # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
